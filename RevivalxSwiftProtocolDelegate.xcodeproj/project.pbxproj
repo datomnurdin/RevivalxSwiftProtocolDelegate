@@ -13,6 +13,7 @@
 		168996ED1BAA6AC100201C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168996EC1BAA6AC100201C32 /* Images.xcassets */; };
 		168996F01BAA6AC100201C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 168996EE1BAA6AC100201C32 /* LaunchScreen.xib */; };
 		168996FC1BAA6AC200201C32 /* RevivalxSwiftProtocolDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168996FB1BAA6AC200201C32 /* RevivalxSwiftProtocolDelegateTests.swift */; };
+		168997061BAA92F200201C32 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168997051BAA92F200201C32 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		168996F51BAA6AC200201C32 /* RevivalxSwiftProtocolDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxSwiftProtocolDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		168996FA1BAA6AC200201C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168996FB1BAA6AC200201C32 /* RevivalxSwiftProtocolDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxSwiftProtocolDelegateTests.swift; sourceTree = "<group>"; };
+		168997051BAA92F200201C32 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				168996E51BAA6AC100201C32 /* AppDelegate.swift */,
+				168997051BAA92F200201C32 /* SecondViewController.swift */,
 				168996E71BAA6AC100201C32 /* ViewController.swift */,
-				168996E91BAA6AC100201C32 /* Main.storyboard */,
 				168996EC1BAA6AC100201C32 /* Images.xcassets */,
 				168996EE1BAA6AC100201C32 /* LaunchScreen.xib */,
+				168996E91BAA6AC100201C32 /* Main.storyboard */,
 				168996E31BAA6AC100201C32 /* Supporting Files */,
 			);
 			path = RevivalxSwiftProtocolDelegate;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168997061BAA92F200201C32 /* SecondViewController.swift in Sources */,
 				168996E81BAA6AC100201C32 /* ViewController.swift in Sources */,
 				168996E61BAA6AC100201C32 /* AppDelegate.swift in Sources */,
 			);
